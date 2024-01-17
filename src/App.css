@@ -18,14 +18,27 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+.beers  {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  justify-content: center;
+}
+
+.beer {
+  border: 2px solid black;
+  padding: 20px;
+  width: 25%;
+  font-size: 15px;
+}
+
 h2 {
   text-decoration: underline;
 }
 
 .image {
-  max-height: 500px;
-  outline: auto;
-  padding: 20px;
+  max-height: 200px;
 }
 
 @keyframes logo-spin {
